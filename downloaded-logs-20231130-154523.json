@@ -1,0 +1,408 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:43:41.543711122Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.LoggingServiceV2.AggregateLogs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.privateLogEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        },
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.logEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        }
+      ],
+      "resourceName": "projects/my-name-390215",
+      "request": {
+        "filter": "860177406621-l1mpqclspv1mhc5cdrkqcgii6itg44vl.apps.googleusercontent.com\n(timestamp>=\"2023-11-23T23:43:47.694Z\" timestamp<\"2023-11-30T23:43:31.389624Z\")",
+        "alignmentPeriod": "21600s",
+        "maxResponseInterval": "10s",
+        "queries": [
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp"
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "severity"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "resource.type"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "labels.service"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp",
+              "labels.\"k8s-pod/app\""
+            ]
+          },
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp",
+              "resource.labels.namespace_name"
+            ]
+          },
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp",
+              "labels.\"service.name\""
+            ]
+          }
+        ],
+        "resourceNames": [
+          "projects/my-name-390215"
+        ],
+        "@type": "type.googleapis.com/google.logging.v2.AggregateLogsRequest"
+      }
+    },
+    "insertId": "e5ryrycnie",
+    "resource": {
+      "type": "logging_log",
+      "labels": {
+        "project_id": "my-name-390215",
+        "name": ""
+      }
+    },
+    "timestamp": "2023-11-30T23:43:41.537517892Z",
+    "severity": "INFO",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2023-11-30T23:44:12.398878792Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:43:41.769726400Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.LoggingServiceV2.ReadLogEntriesLegacy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.privateLogEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        },
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.logEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        }
+      ],
+      "resourceName": "projects/my-name-390215",
+      "request": {
+        "maxEntries": 500,
+        "resourceNames": [
+          "projects/my-name-390215"
+        ],
+        "maxResponseInterval": "10s",
+        "filter": "860177406621-l1mpqclspv1mhc5cdrkqcgii6itg44vl.apps.googleusercontent.com\n(timestamp>=\"2023-11-23T23:43:31.606461Z\" timestamp<\"2023-11-30T23:43:31.606461Z\")",
+        "@type": "type.googleapis.com/google.logging.v2.ReadLogEntriesRequest",
+        "orderBy": "timestamp desc"
+      }
+    },
+    "insertId": "1u1eh3ldje2a",
+    "resource": {
+      "type": "logging_log",
+      "labels": {
+        "project_id": "my-name-390215",
+        "name": ""
+      }
+    },
+    "timestamp": "2023-11-30T23:43:41.763250860Z",
+    "severity": "INFO",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2023-11-30T23:43:45.766907373Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:45:01.780632182Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.LoggingServiceV2.AggregateLogs",
+      "authorizationInfo": [
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.logEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        },
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.privateLogEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        }
+      ],
+      "resourceName": "projects/my-name-390215",
+      "request": {
+        "filter": "860177406621-l1mpqclspv1mhc5cdrkqcgii6itg44vl.apps.googleusercontent.com\nseverity>=DEFAULT\n(timestamp>=\"2023-11-23T23:45:07.595Z\" timestamp<\"2023-11-30T23:44:51.603514Z\")",
+        "queries": [
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp"
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "severity"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp",
+              "resource.type"
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "labels.service"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "labels.\"k8s-pod/app\""
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "groupByExpressions": [
+              "timestamp",
+              "resource.labels.namespace_name"
+            ],
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ]
+          },
+          {
+            "aggregations": [
+              {
+                "count": {}
+              }
+            ],
+            "groupByExpressions": [
+              "timestamp",
+              "labels.\"service.name\""
+            ]
+          }
+        ],
+        "maxResponseInterval": "10s",
+        "resourceNames": [
+          "projects/my-name-390215"
+        ],
+        "@type": "type.googleapis.com/google.logging.v2.AggregateLogsRequest",
+        "alignmentPeriod": "21600s"
+      }
+    },
+    "insertId": "kjn677d2ni2",
+    "resource": {
+      "type": "logging_log",
+      "labels": {
+        "project_id": "my-name-390215",
+        "name": ""
+      }
+    },
+    "timestamp": "2023-11-30T23:45:01.774318672Z",
+    "severity": "INFO",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2023-11-30T23:45:04.480160917Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:45:01.857707085Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.LoggingServiceV2.ReadLogEntriesLegacy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.privateLogEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        },
+        {
+          "resource": "projects/my-name-390215",
+          "permission": "logging.logEntries.list",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/my-name-390215"
+          }
+        }
+      ],
+      "resourceName": "projects/my-name-390215",
+      "request": {
+        "@type": "type.googleapis.com/google.logging.v2.ReadLogEntriesRequest",
+        "maxEntries": 500,
+        "orderBy": "timestamp desc",
+        "resourceNames": [
+          "projects/my-name-390215"
+        ],
+        "filter": "860177406621-l1mpqclspv1mhc5cdrkqcgii6itg44vl.apps.googleusercontent.com\nseverity>=DEFAULT\n(timestamp>=\"2023-11-23T23:44:51.678993Z\" timestamp<\"2023-11-30T23:44:51.678993Z\")",
+        "maxResponseInterval": "10s"
+      }
+    },
+    "insertId": "13ou5hmd668c",
+    "resource": {
+      "type": "logging_log",
+      "labels": {
+        "name": "",
+        "project_id": "my-name-390215"
+      }
+    },
+    "timestamp": "2023-11-30T23:45:01.850820169Z",
+    "severity": "INFO",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2023-11-30T23:45:03.478737574Z"
+  }
+]

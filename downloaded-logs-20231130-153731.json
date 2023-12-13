@@ -1,0 +1,462 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-24T16:07:00.728466339Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/657a5f57-0000-26ae-9c71-f4f5e80d5fe8",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "1plosxbcqfd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "bigquerydatatransfer.googleapis.com",
+        "project_id": "my-name-390215",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-24T16:07:00.720360422Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-24T16:07:01.084054061Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-25T16:07:00.561716150Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/6571fa53-0000-22cf-acc5-30fd3810297c",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "6nyrraceki",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "bigquerydatatransfer.googleapis.com",
+        "project_id": "my-name-390215",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-25T16:07:00.556251430Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-25T16:07:00.995605865Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-26T16:07:00.888242183Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/657a9b55-0000-299c-ae98-089e0828d208",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "9q3r93bvs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "my-name-390215",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+        "service": "bigquerydatatransfer.googleapis.com"
+      }
+    },
+    "timestamp": "2023-11-26T16:07:00.878610031Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-26T16:07:01.346583739Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-27T16:07:00.627314239Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/657129e3-0000-27e5-8fc1-582429a92bb4",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "w73bb7ccfi",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "bigquerydatatransfer.googleapis.com",
+        "project_id": "my-name-390215",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-27T16:07:00.618363467Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-27T16:07:01.468985356Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-28T16:07:00.637062864Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/65742c71-0000-2bd3-92ff-14c14ef13308",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "kjrezqc6bi",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "my-name-390215",
+        "service": "bigquerydatatransfer.googleapis.com",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-28T16:07:00.631223404Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-28T16:07:01.007894454Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-29T16:07:00.659671684Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/65806aac-0000-2659-bc7f-582429a73474",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "t4vy97c5hy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "bigquerydatatransfer.googleapis.com",
+        "project_id": "my-name-390215",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-29T16:07:00.654755874Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-29T16:07:01.179236321Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "crashlytics-exporter@crashlytics-bigquery-prod.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "callerSuppliedUserAgent": "stubby_client",
+        "requestAttributes": {
+          "time": "2023-11-30T16:07:00.662407939Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquerydatatransfer.googleapis.com",
+      "methodName": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "bigquery.transfers.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621/locations/us/transferConfigs/6527d432-0000-2ff9-a32b-f403043612ae/runs/658552d9-0000-2c66-a6c5-582429af0214",
+      "resourceLocation": {
+        "currentLocations": [
+          "us"
+        ]
+      }
+    },
+    "insertId": "1f2frpjc98i",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "my-name-390215",
+        "service": "bigquerydatatransfer.googleapis.com",
+        "method": "google.cloud.bigquery.datatransfer.v1.DataTransferService.CancelTransferRun"
+      }
+    },
+    "timestamp": "2023-11-30T16:07:00.656806999Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-30T16:07:01.101310233Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:28:36.527915Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "mobilesdk-pa.googleapis.com",
+      "methodName": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "firebase.projects.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621",
+      "request": {
+        "@type": "type.googleapis.com/google.internal.firebase.v1.GetIidTokensRequest",
+        "projectNumber": "860177406621"
+      }
+    },
+    "insertId": "7rsps6cc2i",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "mobilesdk-pa.googleapis.com",
+        "method": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+        "project_id": "my-name-390215"
+      }
+    },
+    "timestamp": "2023-11-30T23:28:36.468473Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-30T23:28:37.489872737Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:29:46.688305Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "mobilesdk-pa.googleapis.com",
+      "methodName": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "firebase.projects.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621",
+      "request": {
+        "projectNumber": "860177406621",
+        "@type": "type.googleapis.com/google.internal.firebase.v1.GetIidTokensRequest"
+      }
+    },
+    "insertId": "-llg7mjd280q",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "my-name-390215",
+        "method": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+        "service": "mobilesdk-pa.googleapis.com"
+      }
+    },
+    "timestamp": "2023-11-30T23:29:46.650405Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-30T23:29:47.218621020Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "shiela.m.p.s.e@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "98.248.245.233",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.2151.92,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-11-30T23:32:58.185264Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "mobilesdk-pa.googleapis.com",
+      "methodName": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+      "authorizationInfo": [
+        {
+          "resource": "projects/860177406621",
+          "permission": "firebase.projects.update",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/860177406621",
+      "request": {
+        "projectNumber": "860177406621",
+        "@type": "type.googleapis.com/google.internal.firebase.v1.GetIidTokensRequest"
+      }
+    },
+    "insertId": "-llg7mjd285q",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.internal.firebase.v1.SettingsService.GetIidTokens",
+        "service": "mobilesdk-pa.googleapis.com",
+        "project_id": "my-name-390215"
+      }
+    },
+    "timestamp": "2023-11-30T23:32:58.149607Z",
+    "severity": "NOTICE",
+    "logName": "projects/my-name-390215/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2023-11-30T23:32:58.258168135Z"
+  }
+]
